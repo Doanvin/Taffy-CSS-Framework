@@ -556,10 +556,10 @@
 
 /*******************************GRID COLUMN COUNT REMAINDERS*******************************/
 
-.grid-grow>*{
+.grid--grow>*{
   flex-grow: 1;
 }
 
-.grid-center{
+.grid--center{
   justify-content: center;
 }

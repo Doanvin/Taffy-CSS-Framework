@@ -111,14 +111,14 @@
   width: 9.09090%;
 }
 
-.grid-12>*{
+.grid-12> * {
   width: 8.33333%;
 }
 
 }
 
 
-@media (max-width : 1000px){
+@media (max-width: 1000px){
 
 .grid-1--medium>*{
   width: 100%;
@@ -237,18 +237,18 @@
 
 /*******************************GRID COLUMN COUNT REMAINDERS*******************************/
 
-.grid-grow>*{
+.grid--grow>*{
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
 }
 
-.grid-center{
+.grid--center{
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
 
-.grid-gapless>*{
-  padding: 0 !important;
+.grid--gapless{
+  padding: 0;
 }
